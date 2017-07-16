@@ -39,7 +39,7 @@ for file in glob.glob("avatars/*.jpg"):
 # users = get_users()
 
 # for user in users:
-#     if user['name'] == 'jarradhope':
+#     if user['name'] == 'joe':
 #         print(user['profile'])
 #         break
 # #     r = requests.get(url, stream=True)

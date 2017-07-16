@@ -19,11 +19,11 @@ class Moderator(Plugin):
     flagged_users = {}
     eth_prog = re.compile(r'((0x)?[0-9a-fA-F]{40})')
     btc_prog = re.compile(r'([13][a-km-zA-HJ-NP-Z1-9]{25,34})')
-    url_whitelist = ['contribute.district0x.io', 'test.district0x.io', 'slack.district0x.io', 'blog.district0x.io', 'district0x.slack.com', 'contribute.district0x.io', 'district0x.io', 'district0x.io/docs/district0x-whitepaper.pdf', 'twitter.com/distrct0x', 'github.com/district0x']
+    url_whitelist = ['contribute.district0x.io', 'test.district0x.io', 'slack.district0x.io', 'blog.district0x.io', 'district0x.slack.com', 'contribute.district0x.io', 'district0x.io', 'district0x.io/docs/district0x-whitepaper.pdf', 'twitter.com/distrct0x', 'github.com/district0x', 'district0x.io/docs/district0x-whitepaper-cn.pdf', 'vote.district0x.io']
     user_whitelist = [] # truncated left as example
-    user_blacklist = ['joe', 'joeyurgz', 'madvas', 'matus', 'alexander', 'district0x', 'vip', 'group', 'official' ] # truncated left as example
+    user_blacklist = ['joe', 'joeyurgz', 'madvas', 'matus', 'alexander', 'district0x', 'vip', 'group', 'official', 'district'] # truncated left as example
     id_whitelist = ['U4FASQ3PS'] # truncated left as example
-    chan_whitelist = ['G2B3WG3LG', 'G5DA06HB7'] # truncated left as example
+    chan_whitelist = ['G660P9U3U', 'G66F3M1E3'] # truncated left as example
     time_lapse = 3600
     last_time = time.time()
     msg_count = 0
